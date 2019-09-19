@@ -1,15 +1,70 @@
 /*
-Defining Color palette
-Primary color :
-Secondary color:
-Tertiary color:
+NOTES:
+Use Montserrat for headings and Roboto for content
 */
+/* Defining colors */
+:root {
+  --dark: #343a40;
+  --primary: #1089ff;
+  --grey: #e5e5e5;
+}
+
+/* I honestly couldn't use the color variables for some reason */
+body {
+  font-family: Raleway, sans-serif;
+  color: #343a40;
+  background: #f6f6f6;
+}
+
+h1 {
+  font-family: Montserrat, sans-serif;
+  font-size: 5rem;
+}
+
+hr {
+  margin: 10% auto 5%;
+  color: #d4d7dd;
+  border: 1rem;
+  border-style: dotted;
+  border-bottom: none;
+  width: 5%;
+  mar
+}
+
+/* Nav-bar */
+.navbar-brand {
+  font-family: Montserrat, sans-serif;
+}
+
+/* Landing page */
 .landing-page {
-  padding-top: 70px;
+  padding-top: 140px;
   text-align: left;
 }
 
 .landing-text {
-  font-weight: 800;
-  font-size: 3rem;
+  font-size: 1.4rem;
+  text-align: left;
+}
+
+.appointment-button {
+  margin: 30% auto 20% 15%;
+}
+
+.btn {
+  border-radius: 4rem;
+  font-family: Montserrat, sans-serif;
+}
+
+.btn-lg {
+  padding: 2rem 2.7em;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.landing-image {
+  position: absolute;
+  right: 0;
+  width: 70%;
+  border-radius: 400rem;
 }
