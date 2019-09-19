@@ -1,4 +1,15 @@
+/*
+Defining Color palette
+Primary color :
+Secondary color:
+Tertiary color:
+*/
 .landing-page {
   padding-top: 70px;
-  text-align: center;
+  text-align: left;
+}
+
+.landing-text {
+  font-weight: 800;
+  font-size: 3rem;
 }
