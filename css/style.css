@@ -1,6 +1,6 @@
 /*
 NOTES:
-Use Montserrat for headings and Roboto for content
+Use Montserrat for headings and Raleway for content
 */
 /* Defining colors */
 :root {
@@ -12,23 +12,32 @@ Use Montserrat for headings and Roboto for content
 /* I honestly couldn't use the color variables for some reason */
 body {
   font-family: Raleway, sans-serif;
-  color: #343a40;
+  color: var(--dark) !important;
   background: #f6f6f6;
 }
 
 h1 {
+  color: var(--dark);
   font-family: Montserrat, sans-serif;
   font-size: 5rem;
 }
 
+h2 {
+  font-family: Montserrat, sans-serif;
+  font-size: 2rem;
+}
+
 hr {
-  margin: 10% auto 5%;
+  margin: 10% auto 10%;
   color: #d4d7dd;
-  border: 1rem;
+  border: 0.625rem;
   border-style: dotted;
   border-bottom: none;
-  width: 5%;
-  mar
+  width: 4%;
+}
+
+ul {
+  list-style-type: none;
 }
 
 /* Nav-bar */
@@ -48,7 +57,7 @@ hr {
 }
 
 .appointment-button {
-  margin: 30% auto 20% 15%;
+  margin: 20% auto 30% 0;
 }
 
 .btn {
@@ -57,14 +66,38 @@ hr {
 }
 
 .btn-lg {
-  padding: 2rem 2.7em;
+  padding: 1.3rem 2.7em;
   font-size: 2rem;
   line-height: 1.5;
 }
 
 .landing-image {
-  position: absolute;
-  right: 0;
+  position: relative;
   width: 70%;
   border-radius: 400rem;
+  margin-left: 30%;
+}
+
+/* About page */
+.about {
+  color: var(--light);
+  margin-top: 20px;
+}
+
+.about-box {
+  background-color: var(--dark);
+  padding: 2.8%;
+  padding-top: 3%;
+  border-radius: 1.25rem;
+  padding-bottom: 0;
+}
+
+.specialisation {
+  font-size: 1.7rem;
+  padding: 5%;
+  padding-top: 10%;
+}
+
+.container-lg {
+  position: relative;
 }
