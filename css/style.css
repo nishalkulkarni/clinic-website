@@ -101,3 +101,18 @@ ul {
 .container-lg {
   position: relative;
 }
+
+.fl-shadow{
+  box-shadow: 4px 6px 0px rgba(0,0,0,0.4)
+}
+
+.fl-shadow:hover{
+  box-shadow: 2px 2px 0px rgba(0,0,0,0.5)
+}
+
+.contact-form{
+  background: white;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 4px 4px 0px rgba(0,0,0,0.4)
+}
