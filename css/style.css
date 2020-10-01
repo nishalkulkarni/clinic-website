@@ -9,6 +9,10 @@ Use Montserrat for headings and Raleway for content
   --grey: #e5e5e5;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* I honestly couldn't use the color variables for some reason */
 body {
   font-family: Raleway, sans-serif;
